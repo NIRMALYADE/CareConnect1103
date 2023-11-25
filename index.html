@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareConnect</title>
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kenia&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kenia&family=Lobster&family=Oswald:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .opener1{
+            background-color: #32cf61;
+            border: solid 1px wheat;
+            padding-bottom: 50px;
+            /* text-align: center; */
+           
+        }
+        .logosection{
+            padding-top: 20px;
+
+        }
+        .logo123{
+          padding: 50px;
+           height: 180px;
+           width: 180px;
+           padding-top: 20px ;
+          padding-bottom: 20px;
+           float: left;
+           margin-right: 50px;
+           
+           margin: 0;
+
+        }
+        .opener2{
+            font-size: 70px;
+            /* text-align: center; */
+            color:#130b6e ;
+            font-family: 'Dancing Script', cursive;
+font-family: 'Kenia', sans-serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Pacifico', cursive;
+           padding-left: 500px;
+           padding-top: 20px;
+           
+           
+        }
+        .opener2:hover{
+            cursor: pointer;
+        }
+
+
+        .opener3{
+             /* text-align: center ; */
+             padding-left: 850px;
+             font-size: 20px;
+             color: #3e1066;
+             font-family: 'Dancing Script', cursive;
+font-family: 'Kenia', sans-serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+             padding-top: 0px;
+             margin-top: 0px;
+             padding-bottom: 20px;
+        }
+        .opener3:hover{
+            cursor: pointer;
+        }
+        .list{
+            padding: 100px;
+            padding-top: 10px;
+            padding-left: 200px;
+            padding-bottom: 10px;
+            font-size: 40px;
+            font-weight: bolder;
+            display: flex;
+             gap: 80px; 
+             list-style: none;
+             background-color: #94f2a5;
+        }
+        .item{
+            transition: 0.2s ease-in;
+        }
+          
+        
+        .item:hover{
+            cursor: pointer;
+            background-color: #024d10;
+            color: antiquewhite;
+            padding: 10px;
+        }
+        #img1{
+            border: dashed 0.1px greenyellow;
+            border-radius: 80px;
+           margin: 70px;
+            float: right;
+            height: 35%;
+            width: 35%;
+        }
+        #para1{
+            padding: 200px;
+            font-size: 30px;
+            padding-bottom: 100px;
+        }
+        #button1{
+            height: 100px;
+            width: 300px;
+            font-size: 40px;
+            background-color: #024d10;
+            color: aliceblue;
+            border: solid 1px black;
+            border-radius: 60px;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            
+        }
+        #button1:hover{
+            cursor: pointer;
+            color: red;
+            background-color: yellow;
+        }
+        .para2{
+            background-color: #32cf61;
+            color: yellow;
+            padding: 100px;
+            font-size: 40px;
+            font-weight: bold;
+            border: solid 1px white;
+            border-top-left-radius: 120px ;
+            border-bottom-right-radius: 120px ;
+            border-top-right-radius: 10px ;
+            border-bottom-left-radius: 10px ;
+
+        }
+        .para3{
+            font-size: 70px;
+            text-align: center;
+            padding: 80px 80px 20px 80px;
+        }
+        .ab{
+            float: left;
+            border: solid 2px black;
+            width: 500px;
+            height: 500px;
+            margin: 20px;
+            border-radius: 40px;
+            background-color: #a4f5ba;
+
+
+        }
+        .ab1{
+           
+           padding: 50px;
+           font-size: 30px ;
+           
+        }
+         .class1{
+           
+            float: left;
+            border: solid 2px black;
+            width: 500px;
+            height: 500px;
+            margin: 20px;
+          border-radius: 40px;
+          background-color: #a4f5ba;
+        }
+        .ab2{
+            padding: 50px;
+           font-size: 30px ;
+        }
+       
+        .class2{
+            display: inline;
+            float: left;
+            border: solid 2px black;
+            width: 500px;
+            height: 500px;
+            margin: 20px;
+            border-radius: 40px;
+            background-color: #a4f5ba;
+        }
+        .ab3{
+            
+            padding: 50px;
+           font-size: 30px ;
+        }
+        .contact{
+            text-align: center;
+            font-size: 70px;
+            padding: 80px 80px 20px 80px;
+        }
+        .faq{
+            padding: 100px;
+            
+            font-size: 40px;
+            width: 600px;
+            float: left;
+        }
+        
+        .ph{
+            padding: 100px;
+            
+            font-size: 40px;
+            width: 600px;
+            float: left;
+            
+        }
+        .ulcontact{
+            list-style: none;
+        }
+        .faquestion{
+            text-align: center;
+            font-size: 70px;
+            padding: 80px 80px 20px 80px;  
+        }
+        .faq1{
+            padding-left: 100px;
+            font-size: 40px;
+        }
+        .eventname{
+            text-align: center;
+            font-size: 70px;
+            padding: 80px 80px 20px 80px;  
+        }
+        #img2{
+            border: dashed 0.1px greenyellow;
+            border-radius: 80px;
+           margin: 70px;
+            float: right;
+            height: 400px;
+            width: 35%;
+        }
+
+        #img3{
+            border: dashed 0.1px greenyellow;
+            border-radius: 80px;
+           margin: 70px;
+            float: left;
+            height: 400px;
+            width: 35%;
+        }
+       .holi{
+            padding: 200px;
+            font-size: 30px;
+            padding-bottom: 20px;
+            color: #024d10;
+           
+        }
+        .holipara{
+            padding: 200px;
+            font-size: 30px;
+            padding-top: 40px;
+        }
+        .cp{
+            padding: 200px;
+            font-size: 30px;
+            padding-bottom: 20px;
+            color: #024d10;
+            padding-top: 100px;
+        }
+        .cpinfo{
+            padding: 200px;
+            font-size: 30px;
+            padding-top: 40px;
+        }
+        .footer{
+            text-align: center;
+            font-size: 30px;
+            padding: 50px;
+            background-color: #32cf61;
+        }
+        
+
+        
+        
+    </style>
+</head>
+<body>
+   <div>
+    <div class="opener1">
+        <div class="opener2">
+           <img class="logo123" src="logo.png" alt="logo">   
+          CareConnect
+        </div>
+        <div  class="opener3">
+       We Care, We Connect
+        </div>
+        <!-- <div class="logosection" >
+          
+        </div> -->
+    </div>
+    <div class="navigation">
+        <nav>
+             <ul class="list">
+            <li  class="item"><a href="#homeid">Home</a></li>
+            <!-- <li class="item"><a href="#aboutusid">About Us</a></li> -->
+            <li class="item"><a href="#serviceid">Services</a></li>
+            <li class="item"><a href="#eventid">Events</a></li>
+            <li class="item"><a href="#faqid">FAQs</a></li>       
+            <li class="item"><a href="#contactid">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+   <article class="artical1" id="homeid">
+    <img id="img1" src="son.jpg" alt="hello">
+    <p id="para1">
+        <b>CareConnect</b> is to offer unwavering companionship to the Elderly who often endure solitude. We strive to be their trusted confidant, offering a warm hand to share and cherish life's treasured moments.
+     <br>
+     <br>
+     <br>
+     <br>
+
+     
+     
+        <button id="button1">Join With us</button>
+    </p>
+    
+
+   </article>
+   <div >
+    <p class="para2">
+        “Young people need something stable to hang on to—a culture connection, a sense of their own past, a hope for their own future. Most of all, they need what grandparents can give them.” — <b>Jay Kesler</b>
+
+    </p>
+   </div>
+   <!-- Service -->
+   <div id="serviceid">
+   <p class="para3">
+    Services </p>
+   <table>
+    <tr>
+        <td> <div class="ab"><p class="ab1">
+    We pledge to provide you with unparalleled care and respect, ensuring your well-being remains our topmost priority.
+   
+   <br>
+    Providing you with a companion to talk to and share in your vibrant experiences.
+   </p>
+</div> 
+</td>
+        <td>
+           <div class="class1">
+    <p class="ab2">
+    At We Ensure Accessibility, our commitment is unwavering: a 24x7 Emergency Team and Helpline No. to provide swift support. Additionally, we offer an extensive array of services, from prompt Home Delivery to cater to all our valued customers' needs.
+   </p>
+</div> 
+        </td>
+        <td><div class="class2">
+    <p class="ab3">
+    Additionally, homely events  are designed to bring the warmth of family gatherings to our seniors. Our events bring people together and make lasting memories over amazing conversations. We can't wait to see you there!
+   </p>
+   </div></td>
+    </tr>
+   </table>
+   
+     
+
+   
+   
+<br>
+   </div>
+   <br><br>
+   <!-- br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+   <!-- Frequenly Asked Questions -->
+   <div id="eventid" class="eventcls">
+    <p class="eventname">Events</p>
+     <article  class="artical2">
+        <img id="img2" src="holi.jpg" alt="holi">
+        <p class="holi">Joyful and Vibrant Holi celebration with our Grandpals!</p>
+        <p class="holipara">
+            Nothing will ever give you the heart to face another year,<br> than a Holi festival with your careconnect family <br> you love around it. These silver-haired lovelies deserved both.
+        </p>
+     </article>
+     <article class="artical3">
+        <img id="img3" src="cultural.jpg" alt="cp">
+        <p class="cp">Cultural Program with CareConnect</p>
+        <p class="cpinfo">Very often seniors sink away into their homes with no mental or physical stimulation. Goodfellows refuses to accept this and we put together happy activities and games based on that to help keep their mind sharp and fight aging.</p>
+     </article>
+     <article>
+        <p></p>
+     </article>
+
+   </div>
+   <div>
+    <div id="faqid">
+
+        <p class="faquestion">Frequenly Asked Questions</p>   
+        <div class="faq1">
+            <br>
+        <details>
+            <summary>1. Why is this a paid service? </summary>
+            <p>
+                <br>
+                <br>
+                Your CareConnect have been vetted for empathy and have an affinity towards elderlies, but like any other graduate, they would like to feel secure about their finances and do their best for you. To give them dignified, respectable salaries for their time invested is a paid service. This also ensures their longstanding association with us in order to fulfill an enduring companionship with you.
+            </p>
+        </details>
+        <br>
+        <details>
+            <summary>2. How are the CareConnect and Grandpals matched?</summary>
+            <p>
+                <br>
+                <br>
+                Your CareConnect are young, educated graduates from different backgrounds, who have been vetted for empathy using psychometric tests and background verification checks. We employ a stringent process to get to know the intent and personality of each CareConnect.
+
+We do our best to match Goodfellows with their Grandpals keeping in mind interests, backgrounds, and comfort. We will be in constant touch with you to ensure you are at ease and happy.
+            </p>
+        </details>
+        <br>
+        <details>
+            <summary>3. How do I get started?</summary>
+            <p>
+                <br>
+                <br>
+                We’re so glad you’re here! To get started, click on the signup button that says ‘Join The Free Trial’ and fill in the form that appears. Our team will reach out to you within 48 hours to match you with your perfect companion.  If you need any assistance, please reach out to us at +91 8779524307  from Monday to Friday between 10 AM to 6 PM.
+
+                We’re always here to help.
+            </p>
+        </details>
+        <br>
+        <details>
+            <summary>4. Are the Grandpals also checked for the safety of the young companions?</summary>
+           <br>
+           <br>
+            <p>
+                Of course! Safety from both ends is extremely important. The seniors are met by the members of the core team to assess them along with basic background checks. Also, the Goodfellows have the right to exit immediately if they feel any kind of discomfort. 
+            </p>
+        </details>
+        <br>
+        
+        </div>
+        
+   </div>
+   
+   <!-- Contact -->
+   <div class="ct" id="contactid">
+    <br>
+     <div class="contact">
+        Contact Us
+     </div>
+     <table>
+        <tr>
+            <td>
+                <div class="faq">
+        <p class="hello">
+            Hello there!
+
+        </p>
+     
+     <br>
+     <br>
+     
+        <p class="seefaq">
+            If you’ve got a question about CareConnect, in general, chances are you can find them answered in our FAQ section.
+        </p>
+        <br>
+        <a href="#faqid" class="faqartical">Go to FAQ section</a>
+     </div> 
+            </td>
+            <td>
+                 <div class="ph">
+        <p>Please feel free to reach out</p>
+        <br>
+        <br>
+        
+        <ul class="ulcontact">
+            <li>
+                Phone No.: <a href="vhvyvj">+91 98321 56782</a>
+            </li>
+            <li>
+                Phone No.: <a href="fvcuf">+91 87942 67800</a>
+            </li> 
+            <li>email : <a href="fyfyc">contact@careconnect.in</a></li>
+            <li> email : <a href="fyfyc">join@careconnect.in</a></li>
+           
+        </ul>
+     </div>
+            </td>
+        </tr>
+     </table>
+    
+    
+   </div>
+
+
+<div>
+     <footer class="footer">
+    © 2023 CareConnect | All rights reserved
+   </footer>
+</div>
+  
+
+   </div> 
+
+
+
+</body>
+</html>
